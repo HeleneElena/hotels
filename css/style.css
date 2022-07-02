@@ -1,0 +1,84 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.563rem;
+    line-height: 1.875rem;
+    color: #14274A;
+
+}
+.bg {
+    background: url("../images/fon.jpg") center no-repeat rgba(20, 39, 74, 0.5);
+    width: 1920px;
+    height: 1080px;
+}
+.logo {
+    width: 256px;
+    height: 149px;
+    font-weight: 700;
+    color: #14274A;
+    background: #E0B973;
+    padding: 1.875rem;
+    border-radius: 0 0 50px 50px;
+}
+.luxury {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.75rem;
+}
+.hotels {
+    font-size: 0.938rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.6em;
+    margin-left: 3.125rem;
+}
+ul {
+    margin-top: 3rem;
+}
+.nav-link {
+    font-weight: 400;
+    font-size: 1.563rem;
+    line-height: 1.875rem;
+    color: #FFFFFF;
+}
+.header-content  {
+    color: #FFFFFF;
+}
+.welcom {
+    margin-top: 12rem;
+    font-size: 3.125rem;
+    line-height: 3.813rem;
+}
+h1 {
+    font-weight: 700;
+    font-size: 9.625rem;
+    line-height: 11.563rem;
+    letter-spacing: 0.07em;
+}
+.header-title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.header-text {
+    margin-bottom: 6.75rem;
+    letter-spacing: 0.1em;
+}
+.header-btn {
+    background: #E0B973;
+    border: 2px solid #E0B973;
+    border-radius: 5%;
+    width: 16rem;
+    height: 4rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-btn {
+    margin-right: 1.125rem;
+}
+.header-btn:hover {
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
