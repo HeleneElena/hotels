@@ -8,7 +8,7 @@ body {
 }
 .bg {
     background: url("../images/fon.jpg") center no-repeat rgba(20, 39, 74, 0.5);
-    width: 1920px;
+    width: 1900px;
     height: 1080px;
 }
 .logo {
@@ -81,4 +81,59 @@ h1 {
 .header-btn:hover {
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
+}
+.section1-title {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    color: #14274A;
+    margin-top: 5.813rem;
+    margin-bottom: 5.813rem;
+}
+.cardhome {
+    background: rgba(20, 39, 74, 0.2);
+    width: 45rem;
+    height: 30rem;
+    margin-bottom: 5rem;
+}
+.card {
+    --bs-card-border-width: 0;
+    color: #14274A;
+}
+.section1-title {
+    margin-left: 6rem;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+}
+.card-title {
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 0.02em;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+.card-text {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #14274A;
+    margin-right: 3rem;
+    max-width: 33.875rem;
+    margin-bottom: 1.875rem;
+}
+ .btn-card {
+    background: #E0B973;
+    width: 14.75rem;
+    height: 3.938rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    border: 1px solid #E0B973;
+    text-decoration: none;
+    padding: 3% 5% 3% 5%;
+ }
+.btn-card:hover {
+    background: #fff;
+    color: #E0B973;
 }
