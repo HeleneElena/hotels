@@ -41,6 +41,9 @@ ul {
     line-height: 1.875rem;
     color: #FFFFFF;
 }
+.nav-link:hover {
+    color: #E0B973;
+}
 .header-content  {
     color: #FFFFFF;
 }
@@ -100,7 +103,6 @@ h1 {
     color: #14274A;
 }
 .section1-title {
-    margin-left: 6rem;
     font-size: 2.25rem;
     line-height: 2.75rem;
 }
@@ -137,3 +139,72 @@ h1 {
     background: #fff;
     color: #E0B973;
 }
+.slider-title {
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 4.5rem;
+    color: #14274A;
+    margin-top: 4rem;
+}
+.slider-text {
+    font-size: 1.875rem;
+    line-height: 2.313rem;
+    color: #14274A;
+    margin-top: 2rem;
+    margin-bottom: 1.8rem;
+    max-width: 44rem;
+}
+.slider-name {
+    line-height: 1.875rem;
+    color: #14274A;
+    margin-bottom: 11rem;
+}
+footer {
+    background: url('../images/footer-img.jpg') no-repeat;
+    color: #fff;
+}
+.footer {
+    justify-content: space-between;
+}
+.footer-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    padding-top: 6.5rem;
+}
+.footer-title2 {
+    font-size: 0.563rem;
+    line-height: 0.688rem;
+    letter-spacing: 0.6em;
+    margin-bottom: 2rem;
+}
+.footer-text {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.063rem;
+}
+.footer-menu {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.sozial {
+    display: flex;
+}
+.footer-search {
+    margin-top: 3rem;
+}
+.fild, .btn-fild {
+    height: 3.25rem;
+    color: #fff;
+    margin-top: 6rem;
+}
+.btn-fild {
+    background-color: #E0B973;
+    border: 1px solid #E0B973;
+}
+.btn-fild:hover {
+    color: #E0B973;
+    background-color: #fff;
+}
+
