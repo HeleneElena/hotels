@@ -240,3 +240,64 @@ footer {
     width: 1900px;
     height: 1080px;
 }
+.card-room {
+    background: #FFFFFF;
+    border: 2px solid #14274A;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 5.063rem;
+}
+.room-title {
+    background-color: #14274A;
+    color: #fff;
+    height: 8.813rem;
+    max-width: 99.938rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 4.563rem;
+} 
+.room-wrapper {
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+}
+.view {
+    display: flex;
+}
+.room-details {
+    margin-left: 1.5rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    color: #14274A;
+}
+ .room-btn {
+    background: #E0B973;
+    border-radius: 1px;
+    height: 5.5rem;
+    width: 18rem;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E0B973;
+ }
+  .room-btn:hover {
+    color: #E0B973;
+    background-color: #fff;
+  }
+  .bg-contact {
+    background: #14274A;
+    width: 120rem;
+    height: 29.063rem;
+  }
+  .contact-title {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 6.125rem;
+    color: #FFFFFF;
+    margin-top: 2.938rem;
+    max-width: 35rem;
+  }
