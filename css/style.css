@@ -11,9 +11,11 @@ body {
     width: 1900px;
     height: 1080px;
 }
+
 .active1 {
     text-decoration: underline;
 }
+
 .logo {
     width: 256px;
     height: 149px;
@@ -23,52 +25,64 @@ body {
     padding: 1.875rem;
     border-radius: 0 0 50px 50px;
 }
+
 .luxury {
     font-size: 2.5rem;
     line-height: 3rem;
     letter-spacing: 0.15em;
     margin-bottom: 0.75rem;
 }
+
 .hotels {
     font-size: 0.938rem;
     line-height: 1.125rem;
     letter-spacing: 0.6em;
     margin-left: 3.125rem;
 }
+
 ul {
     margin-top: 3rem;
+    margin-left: 1rem;
 }
+
 .nav-link {
     font-weight: 400;
-    font-size: 1.563rem;
-    line-height: 1.875rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
     color: #FFFFFF;
 }
+
 .nav-link:hover {
     color: #E0B973;
 }
-.header-content  {
+
+.header-content {
     color: #FFFFFF;
 }
+
 .welcom {
     margin-top: 12rem;
     font-size: 3.125rem;
     line-height: 3.813rem;
 }
+
 h1 {
     font-weight: 700;
     font-size: 9.625rem;
     line-height: 11.563rem;
     letter-spacing: 0.07em;
 }
+
 .header-title {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
 .header-text {
     margin-bottom: 6.75rem;
     letter-spacing: 0.1em;
 }
+
 .header-btn {
     background: #E0B973;
     border: 2px solid #E0B973;
@@ -81,13 +95,16 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
 .img-btn {
     margin-right: 1.125rem;
 }
+
 .header-btn:hover {
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
 }
+
 .section1-title {
     font-size: 2.25rem;
     line-height: 2.75rem;
@@ -95,20 +112,24 @@ h1 {
     margin-top: 5.813rem;
     margin-bottom: 5.813rem;
 }
+
 .cardhome {
     background: rgba(20, 39, 74, 0.2);
     width: 45rem;
     height: 30rem;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
 }
+
 .card {
     --bs-card-border-width: 0;
     color: #14274A;
 }
+
 .section1-title {
     font-size: 2.25rem;
     line-height: 2.75rem;
 }
+
 .card-title {
     font-family: 'EB Garamond', serif;
     font-weight: 700;
@@ -116,17 +137,18 @@ h1 {
     line-height: 4.5rem;
     letter-spacing: 0.02em;
     margin-bottom: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
 }
+
 .card-text {
     font-size: 1.5rem;
-    line-height: 2.5rem;
+    line-height: 2rem;
     color: #14274A;
-    margin-right: 3rem;
     max-width: 33.875rem;
     margin-bottom: 1.875rem;
 }
- .btn-card {
+
+.btn-card {
     background: #E0B973;
     width: 14.75rem;
     height: 3.938rem;
@@ -137,18 +159,21 @@ h1 {
     border: 1px solid #E0B973;
     text-decoration: none;
     padding: 3% 5% 3% 5%;
- }
+    margin-left: 1rem;
+}
+
 .btn-card:hover {
     background: #fff;
     color: #E0B973;
 }
+
 .slider-title {
     font-weight: 700;
     font-size: 3.75rem;
     line-height: 4.5rem;
     color: #14274A;
-    margin-top: 4rem;
 }
+
 .slider-text {
     font-size: 1.875rem;
     line-height: 2.313rem;
@@ -157,18 +182,23 @@ h1 {
     margin-bottom: 1.8rem;
     max-width: 37rem;
 }
+
 .slider-name {
     line-height: 1.875rem;
     color: #14274A;
     margin-bottom: 11rem;
 }
+
 footer {
-    background: url('../images/footer-img.jpg') no-repeat;
+    background-color: #14274A;
+    background-size: cover;
     color: #fff;
 }
+
 .footer {
     justify-content: space-between;
 }
+
 .footer-title {
     font-weight: 700;
     font-size: 25px;
@@ -176,45 +206,56 @@ footer {
     letter-spacing: 0.15em;
     padding-top: 6.5rem;
 }
+
 .footer-title2 {
     font-size: 0.563rem;
     line-height: 0.688rem;
     letter-spacing: 0.6em;
     margin-bottom: 2rem;
 }
+
 .footer-text {
     font-weight: 400;
     font-size: 0.875rem;
     line-height: 1.063rem;
 }
+
 .footer-menu {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
+
 .sozial {
     display: flex;
 }
+
 .footer-search {
     margin-top: 3rem;
 }
-.fild, .btn-fild {
+
+.fild,
+.btn-fild {
     height: 3.25rem;
     color: #fff;
     margin-top: 6rem;
 }
+
 .btn-fild {
     background-color: #E0B973;
     border: 1px solid #E0B973;
 }
+
 .btn-fild:hover {
     color: #E0B973;
     background-color: #fff;
 }
+
 .bg-page1 {
     background: url("../images/bg-page1.jpg") center no-repeat rgba(20, 39, 74, 0.5);
     width: 1900px;
     height: 1080px;
 }
+
 .title-page1 {
     font-family: 'EB Garamond', serif;
     font-weight: 700;
@@ -226,26 +267,31 @@ footer {
     margin-top: 5.125rem;
     margin-bottom: 2.125rem;
 }
+
 .text-page1 {
     text-align: center;
     margin-bottom: 5.125rem;
 }
+
 .page1-img {
     margin-bottom: 11.625rem;
     width: 1590px;
     height: 1060px;
 }
+
 .bg-page2 {
     background: url("../images/bg-page2.jpg") center no-repeat rgba(20, 39, 74, 0.5);
     width: 1900px;
     height: 1080px;
 }
+
 .card-room {
     background: #FFFFFF;
     border: 2px solid #14274A;
     border-radius: 0px 0px 15px 15px;
     margin-bottom: 5.063rem;
 }
+
 .room-title {
     background-color: #14274A;
     color: #fff;
@@ -257,22 +303,26 @@ footer {
     font-weight: 700;
     font-size: 3.75rem;
     line-height: 4.563rem;
-} 
+}
+
 .room-wrapper {
     display: flex;
     padding: 5%;
     justify-content: space-between;
 }
+
 .view {
     display: flex;
 }
+
 .room-details {
     margin-left: 1.5rem;
     font-weight: 700;
     margin-top: 1.5rem;
     color: #14274A;
 }
- .room-btn {
+
+.room-btn {
     background: #E0B973;
     border-radius: 1px;
     height: 5.5rem;
@@ -283,55 +333,66 @@ footer {
     align-items: center;
     justify-content: center;
     border: 1px solid #E0B973;
- }
-  .room-btn:hover {
+}
+
+.room-btn:hover {
     color: #E0B973;
     background-color: #fff;
-  }
-  .bg-contact {
+}
+
+.bg-contact {
     background: #14274A;
     width: 120rem;
     height: 29.063rem;
-  }
-  .contact-title {
+}
+
+.contact-title {
     font-weight: 700;
     font-size: 4rem;
     line-height: 6.125rem;
     color: #FFFFFF;
     margin-top: 2.938rem;
     max-width: 35rem;
-  }
-  .form-mail {
+}
+
+.form-mail {
     margin-top: 1.875rem;
-  }
-  .form-message {
+}
+
+.form-message {
     margin-top: 1.875rem;
-  }
-  .title-contact {
+}
+
+.title-contact {
     margin-top: 12rem;
     margin-bottom: 0.5rem;
     font-weight: 700;
     font-size: 3.75rem;
     line-height: 4.5rem;
     color: #14274A;
-  } 
-  .text-contact {
+}
+
+.text-contact {
     margin-bottom: 18rem;
     font-size: 1.875rem;
     line-height: 2.313rem;
     margin-top: 2rem;
-  }
-  .wrapper-contact {
+}
+
+.wrapper-contact {
     display: flex;
     justify-content: space-between;
-  }
-  .daten-contact {
+}
+
+.daten-contact {
     font-size: 2.5rem;
     line-height: 3.063rem;
-  }
-  .address {
+}
+
+.address {
     margin-bottom: 2rem;
-  }
+}
+
 .contact-btn {
     margin-top: 2rem;
     margin-bottom: 20rem;
@@ -343,9 +404,37 @@ footer {
     border: 1px solid #E0B973;
     width: 9rem;
 }
-    
+
 .contact-btn:hover {
     color: #E0B973;
     background-color: #fff;
     border: 1px solid #E0B973;
+}
+@media (max-width: 992px) {
+    ul {
+        justify-content: start;
+    }
+    .nav-link {
+        font-size: 2.3rem;
+    }
+    .welcom {
+        margin-top: 9rem;
+    }
+    h1 {
+        font-style: 10.625rem;
+    }
+    .header-title {
+        font-size: 3rem;
+    }
+    .header-text {
+        font-size: 2rem;
+    }
+    .header-btn {
+        width: 18rem;
+        height: 5rem;
+        font-size: 1.5rem;
+    }
+    .menu {
+        margin-left: -2rem;
+    }
 }
